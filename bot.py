@@ -3,7 +3,7 @@ import logging
 
 import aiopayok
 from aiogram import Bot, Dispatcher
-from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import ParseMode
 from aiopayok import Payok
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
